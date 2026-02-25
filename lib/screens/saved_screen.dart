@@ -15,25 +15,25 @@ class SavedScreen extends StatelessWidget {
         'category': 'SCIENCE',
         'time': '2 hours ago',
         'title': 'New Discovery in Mars Rover Mission: Evidence...',
-        'image': 'https://placeholder.com/mars', // Replace with your asset/network image
+        'image': 'assets/images/news1.jpg', 
       },
       {
         'category': 'TECHNOLOGY',
         'time': 'Yesterday',
         'title': 'The Future of AI in Modern Design: Tools Yo...',
-        'image': 'https://placeholder.com/ai',
+        'image': 'assets/images/news2.jpg',
       },
       {
         'category': 'GLOBAL',
         'time': '2 days ago',
         'title': 'How Satellite Data is Changing Climate Chan...',
-        'image': 'https://placeholder.com/earth',
+        'image': 'assets/images/news.3jpg',
       },
       {
         'category': 'MEDIA',
         'time': '3 days ago',
         'title': 'The Evolution of Digital Journalism in the 21st...',
-        'image': 'https://placeholder.com/papers',
+        'image': 'assets/images/news1.jpg',
       },
     ];
 

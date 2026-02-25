@@ -5,7 +5,6 @@ class DiscoverScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // List of categories based on your image
     final List<Map<String, dynamic>> categories = [
       {'name': 'Technology', 'icon': Icons.memory},
       {'name': 'Sports', 'icon': Icons.sports_basketball},
@@ -20,7 +19,7 @@ class DiscoverScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: const Color(0xFFFF7E50), // Matches the orange header
+        backgroundColor: const Color(0xFFFF7E50), 
         elevation: 0,
         title: const Text(
           'Alif News',

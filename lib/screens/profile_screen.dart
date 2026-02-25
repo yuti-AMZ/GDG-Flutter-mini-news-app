@@ -5,7 +5,6 @@ class ProfileScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Custom colors from the UI
     const Color brandOrange = Color(0xFFFF7E50);
     const Color lightBg = Color(0xFFF8F9FA);
     const Color _ = Colors.white;
@@ -31,7 +30,7 @@ class ProfileScreen extends StatelessWidget {
           children: [
             const SizedBox(height: 30),
             
-            // Profile Image / Logo Section
+            
             Center(
               child: Stack(
                 alignment: Alignment.bottomRight,
@@ -45,6 +44,7 @@ class ProfileScreen extends StatelessWidget {
                       border: Border.all(color: Colors.white, width: 4),
                       boxShadow: [
                         BoxShadow(
+                    
                           // ignore: deprecated_member_use
                           color: Colors.black.withOpacity(0.05),
                           blurRadius: 10,
@@ -54,7 +54,7 @@ class ProfileScreen extends StatelessWidget {
                     ),
                     child: const Icon(Icons.block, size: 50, color: Colors.white),
                   ),
-                  // Verified Badge
+    
                   Container(
                     padding: const EdgeInsets.all(4),
                     decoration: const BoxDecoration(
@@ -77,13 +77,14 @@ class ProfileScreen extends StatelessWidget {
               ),
             ),
             
-            // Version Badge
+          
             Container(
               margin: const EdgeInsets.only(top: 8),
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
               decoration: BoxDecoration(
                 color: iconBoxBg,
                 borderRadius: BorderRadius.circular(20),
+                
                 // ignore: deprecated_member_use
                 border: Border.all(color: brandOrange.withOpacity(0.2)),
               ),
@@ -95,7 +96,7 @@ class ProfileScreen extends StatelessWidget {
 
             const SizedBox(height: 30),
 
-            // Mission Section
+          
             _buildSectionHeader('OUR MISSION'),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 30),
@@ -117,7 +118,7 @@ class ProfileScreen extends StatelessWidget {
 
             const SizedBox(height: 30),
 
-            // Information Section
+        
             _buildSectionHeader('INFORMATION'),
             _buildInfoCard(
               icon: Icons.code,
@@ -178,6 +179,7 @@ class ProfileScreen extends StatelessWidget {
         borderRadius: BorderRadius.circular(15),
         boxShadow: [
           BoxShadow(
+          
             // ignore: deprecated_member_use
             color: Colors.black.withOpacity(0.02),
             blurRadius: 10,
